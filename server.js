@@ -22,8 +22,6 @@ app.get("/drinks/:id", (req,res) => {
 })
 
 
-
-
 app.listen(port, () => {
     console.log(`I'm on port ${port}`)
 })
